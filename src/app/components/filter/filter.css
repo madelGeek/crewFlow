@@ -1,0 +1,8 @@
+.filter {
+  padding-bottom: 20px;
+}
+
+/*TODO: add less*/
+.filter__value {
+  cursor: pointer;
+}
