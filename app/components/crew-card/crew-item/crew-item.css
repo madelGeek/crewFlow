@@ -1,0 +1,19 @@
+.crew-item__container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  max-width: 300px;
+  height: 180px;
+  padding: 5px;
+}
+
+.crew-item__container__picture {
+  border-radius: 50%;
+}
+
+.crew-item__container__name {
+  padding: 10px;
+  text-transform: capitalize;
+}

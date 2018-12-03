@@ -8,10 +8,20 @@
     "preserveConstEnums": true,
     "removeComments": true,
     "sourceMap": true,
-    "target": "es5",
-    "experimentalDecorators": true
+    "target": "es6",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "app/*"
+      ]
+    },
+    "types": ["reflect-metadata"],
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true
   },
   "include": [
-    "./src/**/**/*"
+    "./app/**/**/*"
   ]
 }

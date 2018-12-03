@@ -14,7 +14,6 @@ export class Filter extends Component {
                 <p className="filter__header">Filter</p>
                 <FilterItem
                     name="By name"
-                    value="name"
                 />
             </div>
         );
